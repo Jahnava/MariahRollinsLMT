@@ -11,9 +11,6 @@ html,body{
 }
 
 #white-box{
-  -webkit-box-shadow: inset 0px 2px 118px -33px rgba(0,0,0,0.21);
--moz-box-shadow: inset 0px 2px 118px -33px rgba(0,0,0,0.21);
-box-shadow: inset 0px 2px 118px -33px rgba(0,0,0,0.21);
 color: white;
 }
 
@@ -40,13 +37,14 @@ h3 {
 .nav-pills>li>a{
   color: black;
 }
+
 /* outer containers */
 .container-flex, .container-order,.flex-center-center{
   display:flex;
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  background-color: teal;
+  background-color: #06605B;
   justify-content: space-around;
   padding: 2rem;
 }
