@@ -341,7 +341,11 @@ body{
     @media (min-width: 50px) and (max-width: 1000px) {
       /* carousel */
      #carouselFade{
-       background-color: lightgreen;
+       background-color: #CB89BF;;
+         background-repeat: no-repeat;
+         background-size: contain;
+         height: 60%;
+
      }
 
       body{
