@@ -341,10 +341,10 @@ body{
     @media (min-width: 50px) and (max-width: 1000px) {
       /* carousel */
      #carouselFade{
-       background-color: #CB89BF;;
+       background-color: #CB89BF;
          background-repeat: no-repeat;
          background-size: contain;
-         height: 60%;
+         height: 30%;
 
      }
 
@@ -411,7 +411,7 @@ body{
           .carousel,
           .carousel-inner,
           .carousel-inner .item {
-            max-height: 90%;
+            max-height: 100%;
           }
           .item:nth-child(1) {
         background-image:url('/images/massage1.jfif');
@@ -444,3 +444,44 @@ body{
         background-repeat: no-repeat;
           }
       }
+
+      /* contact page */
+    #contact-box {
+  width:25%;
+  padding: 1rem;
+  background-image: url('/images/white-wall.jpeg');
+  color: black;
+  font-size: 20px;
+}
+
+#contact-pic{
+  background-image: url('/images/contact-pg.jpeg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 15%;
+ /* height: 420px; */
+}
+
+.sticky-footer2{
+  flex: 0 0 auto;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 100%;
+  color: black;
+background:black;
+background: #8f0222; /* Old browsers */
+background: -moz-linear-gradient(top, #8f0222 42%, #6d0019 78%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #8f0222 42%,#6d0019 78%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #8f0222 42%,#6d0019 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+background-image: url('/images/contact-background.jfif');
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.small-text{
+  font-size: 10px;
+  color: black;
+}
