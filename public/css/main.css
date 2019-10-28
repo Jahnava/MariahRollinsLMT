@@ -209,7 +209,7 @@ body{
       height: 100%;
     }
     .item:nth-child(1) {
-  background-image:url('/images/massage1.jfif');
+  background-image:url('/images/massage3.jfif');
   /* background-size: cover; */
   background-position: center center;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ body{
     }
 
     .item:nth-child(2) {
-      background: url('/images/massage2.jfif');
+      background: url('/images/massage-room3.jpg');
   background-size: contain;
   /* background-size: cover; */
   background-position: center center;
@@ -225,7 +225,7 @@ body{
     }
 
     .item:nth-child(3) {
-      background: url('/images/massage3.jfif');
+      background: url('/images/massage1.jfif');
   /* background-size: cover; */
   background-size: contain;
   background-position: center center;
@@ -238,6 +238,28 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
     }
+    .item:nth-child(5) {
+      background: url('/images/massage2.jfif');
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+    .item:nth-child(6) {
+      background: url('/images/massage-room1.jpg');
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+    .item:nth-child(7) {
+      background: url('/images/massage-room2.jpg');
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+}
 
 
 /* carousel mobile */
@@ -308,14 +330,14 @@ body{
           }
           .item:nth-child(1) {
         background-image:url('/images/massage1.jfif');
-        /* background-size: contain; */
+        background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        /* background-size: contain; */
           }
 
           .item:nth-child(2) {
-            background: url('/images/massage2.jfif');
+            background: url('/images/massage1.jfif');
         /* background-size: contain; */
         background-size: cover;
         background-position: center center;
@@ -331,12 +353,33 @@ body{
           }
           .item:nth-child(4) {
             background: url('/images/lunaMoth.jfif');
-        /* background-size: cover; */
+        background-size: cover;
         /* background-size: contain; */
         background-position: center center;
         background-repeat: no-repeat;
           }
-        }
+          .item:nth-child(5) {
+            background: url('/images/massage2.jfif');
+        background-size: cover;
+        /* background-size: contain; */
+        background-position: center center;
+        background-repeat: no-repeat;
+          }
+          .item:nth-child(6) {
+            background: url('/images/massage-room1.jpg');
+        background-size: cover;
+        /* background-size: contain; */
+        background-position: center center;
+        background-repeat: no-repeat;
+          }
+          .item:nth-child(7) {
+            background: url('/images/massage-room2.jpg');
+        background-size: cover;
+        /* background-size: contain; */
+        background-position: center center;
+        background-repeat: no-repeat;
+          }
+      }
 
     @media (min-width: 50px) and (max-width: 1000px) {
       /* carousel */
