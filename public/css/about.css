@@ -1,0 +1,180 @@
+/* general styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url("/images/about-page2.jfif")
+    no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+#services .glyphicon {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#about {
+  background: url("/images/about-page.jfif")
+    no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about .panel {
+  opacity: 0.85;
+}
+
+#contact {
+  background: url("/images/lunaMoth.jfif")
+    no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact .panel {
+  opacity: 0.85;
+}
+
+#footer {
+  background: url("/images/about-page.jfif")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  font-size: 10px;
+}
+
+.img-circle {
+  border-style: solid;
+  border-width: 0px;
+  border-color: silver;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+@media (max-width: 1000px) {
+  #circleImage {
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 50px) and (max-width: 1000px) {
+  #circleImage {
+    margin-top: 0%;
+  }
+}
+
+.titleText {
+  color: black;
+  margin-bottom: 1px;
+  font-weight: bold;
+  text-shadow: 4px 4px 50px rgba(300, 300, 300, 300);
+  /* padding-left:230px; */
+}
+
+.pull-right {
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+#success_message {
+  display: none;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+li {
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 1%;
+}
+
+ul {
+  margin-right: 2%;
+}
