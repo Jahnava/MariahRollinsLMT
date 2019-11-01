@@ -549,3 +549,14 @@ background-repeat: no-repeat;
   font-size: 10px;
   color: black;
 }
+
+/* calendar page */
+
+#calendar-page
+{
+  background-image: url('/images/calendar-page.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  /* margin-top: 2%; */
+}
